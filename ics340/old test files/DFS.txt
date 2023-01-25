@@ -1,0 +1,19 @@
+	
+	public void DFS(Graph graph1) {
+		for ( Node o1: graph1.getNodeList()) {
+			o1.setColor("white");
+			o1.setPreviousNode(null);
+			time = 0;
+		}
+		for ( Node o1: graph1.getNodeList()) {
+			if(o1.getColor().equalsIgnoreCase("White")){
+				DFS_Visit(o1);
+			}
+		}
+		System.out.println("DFS of Graph");
+		
+		System.out.println("Node\s"+"Discs\s"+"Finished\s");
+		for (Node newNode : graph.getNodeList()) {
+			System.out.println(newNode.getAbbrev() + " \t " + newNode.getdistTime() + " \t " + newNode.getFinishTime());
+		}
+	}

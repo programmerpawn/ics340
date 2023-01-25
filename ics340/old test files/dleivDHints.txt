@@ -1,0 +1,16 @@
+helper function
+sort (arraylist)
+code the algorithem
+just code the algorithem and it will give the answer
+collections -> linked list 
+b(1,2) is 0,1
+takes two ints (int i ,int j) return the distance of  the two things
+go through one of the time
+look at the first thing and make it a min and keep looking 
+make a loop
+bitonic(n-1,n)+[pn-1,pn]
+min is a loop and returns the min
+
+================
+parent trail 
+who came before us
