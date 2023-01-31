@@ -1,2 +1,0 @@
-Shortest bitonic tour has distance 3083
-Tour is M -> D -> F -> C -> M
